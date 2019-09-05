@@ -1,0 +1,98 @@
+body { /*cuerpo del html*/
+    height: 100%; /*visivilidad*/
+ }
+ 
+ 
+ header { /*representa un grupo de ayudas introductorias o de navegación.*/
+ display: inline; /*Representa un grupo de ayudas introductorias o de navegación.*/
+ background: #117A7A;  /*es un atajo para definir los valores individuales del fondo en una única regla CSS*/
+ padding: 10px 0px; /* Espaciado interno del bloque es la distancia entre el borde del bloque y su contenido*/
+ }
+ 
+ section {  /*representa una sección genérica de un documento. */
+ width: 100%;  /* El Tamaño son las dimensiones del bloque.*/
+ background: #117A7A;  /*es un atajo para definir los valores individuales del fondo en una única regla CSS*/
+ float: left;  /* propiedad CSS especifica cómo debe flotar un elemento.*/
+ overflow: auto; /*Especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
+ padding-bottom: 60px; /*unidad   margen interno inferior*/
+ padding-top: 30px; /*unidad   margen interno superior*/
+ }
+ 
+ aside { /*representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento*/
+ float:right; /*es una propiedad que obliga a cualquier elemento a flotar*/
+ border: 1px solid #054747;  /*permite definir de golpe todos los bordes en una única regla de la hoja de estilos.*/
+ width: 19%; /* El Tamaño son las dimensiones del bloque.*/
+ border: 1px solid #054747;  /*permite definir de golpe todos los bordes en una única regla de la hoja de estilos.*/
+
+ }
+ 
+ footer{ /*representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección*/
+  position: relative; /*el elemento se posiciona en relación con su posición normal.*/
+  margin-top: -50px;  /* Los Márgenes de bloque son el espacio comprendido entre el bloque y el borde de la ventana activa del navegador.*/
+  height: 40px;  /*Especifica la altura del area de contenido de un elemento*/
+  padding: 5px 0px;  /* Espaciado interno del bloque es la distancia entre el borde del bloque y su contenido*/
+  clear: both; /* Epecifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos.*/
+  background: #E1ECF1; /*es un atajo para definir los valores individuales del fondo en una única regla CSS*/
+  text-align: center; /*Texto alineado en el centro*/
+  color: #fff; /*color del estilo css"*/
+ }
+ 
+ figure {
+ display: table;  /*Permite asignar un comportamiento de tabla a los elementos que haya dentro (anidados a la etiqueta donde estás colocando el display: table).*/
+ margin: 0 auto; /*Margen de la hoja de estilo*/
+ }
+ 
+ * {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+h3{
+color: aliceblue;
+align-self: center;
+
+}
